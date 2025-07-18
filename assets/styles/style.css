@@ -1,0 +1,59 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: auto;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+.search-parent 
+{
+  position: relative;
+  color:#F1F1F1;
+}
+
+.search-parent input
+{
+    background: rgb(241, 241, 241);
+    border-radius: 66px;
+    padding: 15px 30px;
+    width: 500px;
+    border: none;
+}
+.search-parent i
+{
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    color: #BABABA;
+
+}
+.nav-items
+{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.nav-items li
+{
+    list-style:none;
+}
+
+.nav-items li a
+{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
